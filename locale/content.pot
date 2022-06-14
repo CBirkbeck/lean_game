@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"POT-Creation-Date: 2022-06-14 11:02:05.036809\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+#: game_config
+msgid "Lean Topology game2"
+msgstr ""
+
+#: intro
+msgid ""
+"# The Topology Game, version 1.0.0.\n"
+"\n"
+"## By the Barcelona Lean Seminar\n"
+"\n"
+"Learn topology with Lean!\n"
+"\n"
+"# What is this game?\n"
+"\n"
+"In this game, you will learn topology and Lean at the same time. Travel "
+"through different worlds solving challenges. On the left side \n"
+"of the screen you will find tactics and theorems you can use.\n"
+"\n"
+"Have fun!\n"
+"\n"
+"# Credits\n"
+"\n"
+"The Topology Game is brought to you by the Barcelona Lean Seminar, a project "
+"based at Universitat Autònoma de Barcelona.\n"
+"\n"
+"Lean is a computer theorem prover being developed at Microsoft Research.\n"
+"\n"
+"Prove a theorem. Write a function. <a href=\"https://twitter.com/XenaProject"
+"\" target=\"blank\">@XenaProject</a>.\n"
+msgstr ""
+
+#: world_config
+msgid "Set theory"
+msgstr ""
+
+#: Set theory level 1
+msgid ""
+"\n"
+"## Summary\n"
+"\n"
+"`refl` is a tactic which proves goals of the form `X = X`.\n"
+"\n"
+"## Details\n"
+"\n"
+"The `refl` tactic will close any goal of the form `A = B`\n"
+"where `A` and `B` are *exactly the same thing*.\n"
+"\n"
+"### Example:\n"
+"If it looks like this in the top right hand box:\n"
+"```\n"
+"A B : set X\n"
+"⊢ A ∪ B = A ∪ B\n"
+"```\n"
+"\n"
+"then\n"
+"\n"
+"`refl,`\n"
+"\n"
+"will close the goal and solve the level. Don't forget the comma.\n"
+"\n"
+msgstr ""
+
+#: Set theory level 1
+msgid ""
+"We will start by practising with the simplest tactic, namely *refl*. This "
+"just proves goals\n"
+"of the form $A = A$, no matter how complicated $A$ is. Let's see it in "
+"action!\n"
+msgstr ""
+
+#: Set theory level 1
+msgid "Just delete `sorry` and type `refl,` (don't forget the comma!).\n"
+msgstr ""
+
+#: Set theory level 1 Basic definitions
+msgid "Click here for a hint, in case you get stuck."
+msgstr ""
+
+#: Set theory level 1
+msgid "If A and B are sets, then A ∪ B = A ∪ B.\n"
+msgstr ""
+
+#: world_config
+msgid "Functions"
+msgstr ""
+
+#: Functions level 1
+msgid ""
+"# Level 1: The image of a union\n"
+"\n"
+"In this level we prove that the image of a union of two sets if the union of "
+"their images.\n"
+msgstr ""
+
+#: Functions level 1
+msgid "$ f(A ∪ B) = f(A) ∪ f(B) $\n"
+msgstr ""
+
+#: world_config
+msgid "Basic definitions"
+msgstr ""
+
+#: Basic definitions level 1
+msgid "# Level 1 : The empty set is open.\n"
+msgstr ""
+
+#: Basic definitions level 1
+msgid ""
+"In many textbooks, one of the axioms of a topological space is that the "
+"empty set is open. This actually follows from the other axioms!\n"
+msgstr ""
+
+#: Basic definitions level 1
+msgid ""
+"In Lean, sets are notation for logical statements. That is, the set\n"
+"`a ∈ { x : X | P x }` means *the same as* `P a`. As a somewhat degenerate\n"
+"example, `a ∈ ∅` means `false`.\n"
+msgstr ""
+
+#: Basic definitions level 1
+msgid "Prove that the empty set is open.\n"
+msgstr ""
+
+#: world_config
+msgid "Interior world"
+msgstr ""
+
+#: Interior world level 1
+msgid ""
+"In this world we will end up having three alternative definitions of the "
+"interior of a set. \n"
+"This will be very useful, because at any point we will be able to choose the "
+"one that better fits our needs.\n"
+"\n"
+"First of all we need to figure out what properties does the interior of an "
+"arbitrary set have... So we start with an easy one:\n"
+"\n"
+"# Level 1: The interior is contained in the original set\n"
+"\n"
+msgstr ""
+
+#: Interior world level 1
+msgid "The interior of any set A is contained in the set A.\n"
+msgstr ""
